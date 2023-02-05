@@ -1,5 +1,5 @@
 import xerial.sbt.Sonatype._
-sonatypeProjectHosting := Some(GitHubHosting("scalacenter", "qrgen", "faveoled@yandex.com"))
+sonatypeProjectHosting := Some(GitHubHosting("faveoled", "scala-qr-gen", "faveoled@yandex.com"))
 
 
 scalaVersion := "3.2.1"
@@ -14,7 +14,7 @@ organization := "io.github.faveoled"
 description := "Scala QR generator"
 
 // open source licenses that apply to the project
-licenses := Seq("MIT" -> url("https://mit-license.org/"))
+licenses := Seq("MIT License" -> url("http://www.opensource.org/licenses/mit-license.php"))
 
 // publish to the sonatype repository
 publishTo := sonatypePublishToBundle.value
